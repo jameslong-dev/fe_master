@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Coffee Masters" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header >
+        <div class="flex_container">
+            <img class="logo" src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" alt="coffee_masters_logo">
+            <p class="logo_title">Coffee Masters</p>
+        </div>
+    </header>
+
+    <main class="container flex_container_content">
+        <div class="my_card">
+            <div class="my_card2">
+                <div>
+                    <p class="card_title">ITEMS</p>
+                </div>
+            <div class="items_container">
+                <p class="items_quantity">1x</p>
+                <div>
+                    <p class="items_type items_name">Cappucino</p>
+                    <p class="items_type">Life Foam</p>
+                </div>
+                <p class="items_amount">$3.35</p>
+            </div>
+
+            <div class="items_container">
+                <p class="items_quantity">1x</p>
+                <div>
+                    <p class="items_type items_name">Cappucino</p>
+                    <p class="items_type">Lite Milk</p>
+                    <p class="items_type">Double Espresso</p>
+                </div>
+                <p class="items_amount">$3.85</p>
+            </div>
+
+            <div class="items_container">
+                <p class="items_quantity">1x</p>
+                <div>
+                    <p class="items_type items_name">Croissant</p>
+                    <p class="items_type">Butter</p>
+                </div>
+                <p class="items_amount">$2.45</p>
+            </div>
+        </div>
+        </div>
+        
+        <div class="my_card flex_column">
+           
+            <div class="details_card">
+                <div class="card_title">
+                    <p>NAME</p>
+                </div>
+                <div class="name_container">
+                    <input type="text" id="name" name="Ford Perfect" class="personal_name" value="">
+                    <label for="name" class="name_label">Name for order</label>
+                </div>
+                
+            </div>
+            <div class="details_card">
+                <div class="card_title">
+                    <p>PAYMENT</p>
+                </div>
+                <div class="card_details_container">
+                    <input type="text" id="card_num" class="card_details" name="Card number" value="">
+                    <label for="card_num" class="card_label">Card number</label>
+                </div>
+                <div class="card_details_container">
+                    <input type="text" id="ccv_num" class="card_ccv_details" name="CCV number" value="">
+                    <label for="ccv_num" class="card_label">CCV number</label>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+    <main class="container second_part">
+        <div class="total_container">
+            <div class="total_details">
+                <p class="total_label">Subtotal:</p>
+                <p  class="total_label">Tax:</p>
+                <p  class="total_label net_total">Total:</p>
+            </div>
+            <div class="total_details total_details_price">
+                <p class="total_price">$9.65</p>
+                <p class="total_price">$0.82</p>
+                <p  class="total_price net_total">$10.47</p>
+
+            </div>
+           
+        </div>
+
+        <div class="order_button">
+            <button name="order" id="order_btn" class="button">
+                <label for="order_btn">Place order</label>
+            </button>
+        </div>
+    </main>
+    
+</body>
+</html>
